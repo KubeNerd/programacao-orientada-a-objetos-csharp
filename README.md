@@ -35,3 +35,5 @@ Aqui você vai encontrar códigos que escrevi para praticar os conceitos mencion
 - **Evoluir**: Refletir sobre os erros e ajustar o código até que funcione da maneira esperada.
 
 Se você, por acaso, acabar neste repositório e achar útil, ótimo! Mas lembre-se: este é um ambiente de aprendizado, e o foco aqui é o meu progresso pessoal com a programação em C#.
+
+Para mais dúvidas que eu tiver, irei seguir a documentação da Microsoft: https://learn.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/
