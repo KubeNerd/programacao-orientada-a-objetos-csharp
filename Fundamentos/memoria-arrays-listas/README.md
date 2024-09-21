@@ -176,3 +176,207 @@ public class Vetores
 }
 
 ```
+
+```csharp
+using System;
+
+public class Student {
+    
+    public string Name { get; set; }
+    public string Email { get; set; }
+    
+    public Student(string name, string email){
+        Name = name;
+        Email = email;
+    }
+}
+
+
+
+public class Locator: Student {
+  public Room RentedRoom { get; set; }
+  
+  public Locator(string name, string email, Room rentedRoom): base(name, email){
+      RentedRoom = rentedRoom;
+  }
+}
+
+public class Room {
+    public int Number { get; set; }
+    public double Price { get; set; }
+    public bool IsAvalaible { get; private set; }
+    
+    
+    public Room(){}
+}
+
+public class Rental {
+    public static void Main(string[] args) {
+        Room[] rooms = new Room[10];
+
+        for (int i = 0; i < 10; i++) {
+            rooms[i] = new Room(i + 1, 1200.00);
+        }
+
+        Console.Write("Digite o número de estudantes que vão alugar os quartos: ");
+        int n = int.Parse(Console.ReadLine());
+
+        Locator[] locators = new Locator[n];
+
+        for (int i = 0; i < n; i++) {
+            Console.Write($"Digite o nome do estudante {i + 1}: ");
+            string name = Console.ReadLine();
+            Console.Write($"Digite o email do estudante {i + 1}: ");
+            string email = Console.ReadLine();
+
+            Room availableRoom = Array.Find(rooms, room => room.IsAvailable);
+
+            if (availableRoom != null) {
+                locators[i] = new Locator(name, email, availableRoom);
+                availableRoom.Rent(); 
+                Console.WriteLine($"Quarto {availableRoom.Number} alugado para {name}.");
+            } else {
+                Console.WriteLine("Não há quartos disponíveis.");
+            }
+        }
+
+        Console.WriteLine("Processo de aluguel finalizado.");
+    }
+}
+```
+
+
+## Motificadores de parametros params
+
+```csharp
+namespace Course {
+    class Calculator {
+        public static int Sum(params int[] numbers){
+            int sum = 0;
+            for(int i = 0; i < numbers.Length; i++>){
+                sum += numbers[i];
+            }
+            return sum;
+        }
+    }
+}
+```
+
+
+## Motificadores de parametro ref
+
+```csharp
+class Calculator {
+    public static void Tripe(ref int x){
+        x = x * 3;
+    }
+}
+
+class Program {
+    static void Main(string[] args){
+        int a = 10;
+        Calculator.Tripe(ref a);
+        Calculator.WriteLine(a);
+    }
+}
+
+```
+
+
+## Motificadores de parametro out
+
+```csharp
+ class Calculator {
+    public static void Triple(int origin, out int result){
+        result = origin * 3;
+
+    }
+ }
+
+ class Program {
+    static void Main(string[] args){
+        int a = 10;
+        int triple;
+        Calculator.Triple(a, out triple);
+        Console.WriteLine(triple);
+    }
+ }
+
+```
+
+
+## Boxing e Unboxing
+
+```csharp
+int number = 42;
+object boxedNumber = number; // Boxing
+
+```
+**Boxing**: Converte um tipo de valor para um tipo de referência.
+**Unboxing**: Converte um tipo de referência de volta para um tipo de valor.
+
+
+## Foreach - Opcional
+
+```csharp
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class Foreatch
+{
+    public static void Main(string[] args)
+    {
+        string[] nomes = new string[] {"vinicus", "pereira", "teste"};
+        
+        for(int n = 0; n < nomes.Length; n++){
+            Console.WriteLine(nomes[n]);
+        }
+    }
+}
+
+Console.WriteLine("---------");
+
+foreach(string obje in vect){
+    Console.WriteLine(obj);
+}
+
+```
+
+## Listas
+```csharp
+   using System;
+   using System.Collections.Generic;
+
+    List<string> list = new List<string>();
+    List<string> list2 = new List<string>{"vinicius", "teste"};
+    /*O Add insere por padrão no final da lista*/
+    list2.Add("Teste 2");
+    /*O Insert permite selecionar/decidir em qual posição da lista o valor será inserido*/
+    list2.Insert(4,"Teste 3");
+
+```
+
+## Encontrar valores em listas
+```csharp
+    List<string> nomes = new List<string>{"jhonn", "maria"};
+
+    static bool Test(string s){
+        return s[0] == "j";
+    }
+
+
+    string s1 = list.Find(j => j[0] == "j");
+
+    Console.WriteLine(s1);
+```
+
+```csharp
+    List<string> lista = new List<string>{"vinicius"};
+    List<string> search = lista.FindAll(x => x.Length == 4);
+    lista.Remove("vinicius");
+    lista.RemoveAll(a => a[0] == "v");
+
+    lista.RemoveAt(1);
+```
