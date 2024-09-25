@@ -36,8 +36,20 @@ namespace herenca_conta
             acc4.Loan(1000);
 
 
-            BusinessAccount acc5 = (BusinessAccount)acc3;
 
+
+            //BusinessAccount acc5 = (BusinessAccount)acc3;
+            if (acc3 is BusinessAccount)
+            {
+                BusinessAccount acc5 = (BusinessAccount)acc3;
+            }
+
+            if (acc3 is SavingsAccount) 
+            {
+                SavingsAccount acc5 = (SavingsAccount)acc3;
+                acc5.UpdateBalance();
+                Console.WriteLine("Update!");
+            }
 
         }
     }
