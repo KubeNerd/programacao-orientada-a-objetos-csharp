@@ -8,13 +8,19 @@ namespace exercicio_proposto.Entities
 {
     class OrderItem
     {
-        public int quantity { get; set; }
-        public double price { get; private set; }
+        public int Quantity { get; set; }
+        public double Price { get; private set; }
 
+        public OrderItem(int quantity, double price) 
+        { 
+            Quantity = quantity;
+            Price = price;
+        }
 
-        public double subTotal() {
-            return quantity * price;
-        
+        public double subTotal()
+        {
+            return Quantity * Price;
+
         }
     }
 }
