@@ -16,7 +16,7 @@ namespace heranca_conta.Entities
 
         }
 
-        public BusinessAccount(int number, string holder, double loanLimit)
+        public BusinessAccount(int number, string holder, double balance, double loanLimit)
            : base(number, holder, loanLimit)
         {
 
