@@ -42,11 +42,13 @@ namespace herenca_conta
             if (acc3 is BusinessAccount)
             {
                 BusinessAccount acc5 = (BusinessAccount)acc3;
+                acc5.Loan(1000);
+                Console.WriteLine("Loan!");
             }
 
             if (acc3 is SavingsAccount) 
             {
-                SavingsAccount acc5 = (SavingsAccount)acc3;
+                SavingsAccount acc5 = (SavingsAccount)acc3 as SavingsAccount;
                 acc5.UpdateBalance();
                 Console.WriteLine("Update!");
             }
