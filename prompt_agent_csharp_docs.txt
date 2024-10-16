@@ -1,0 +1,9 @@
+GPT, converta o texto abaixo para Markdown, incluindo as tags HTML necessárias. Em seguida, unifique todas as informações em um arquivo README.md e forneça o link para download do arquivo.
+
+Instruções:
+1 - Converter um texto fornecido em Markdown, incluindo as tags HTML necessárias.
+2 - Unificar tudo isso em um arquivo README.md.
+3 - Fornecer o link de download do arquivo.
+
+
+Texto a ser convertido: [Cole o texto que você quer converter aqui]
