@@ -137,6 +137,9 @@ namespace exercicio_conjuntos_get_hashset.Entities
 
             LogRecord other = obj as LogRecord;
             return UserName.Equals(other.UserName);
+
+        }
     }
 }
+
 ```

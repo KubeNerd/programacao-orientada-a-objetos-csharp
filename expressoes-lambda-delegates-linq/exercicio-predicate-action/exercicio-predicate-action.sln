@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio-predicate-action", "exercicio-predicate-action\exercicio-predicate-action.csproj", "{ACEC595B-1BE7-4AF5-932F-E9C952B84419}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACEC595B-1BE7-4AF5-932F-E9C952B84419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEC595B-1BE7-4AF5-932F-E9C952B84419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEC595B-1BE7-4AF5-932F-E9C952B84419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEC595B-1BE7-4AF5-932F-E9C952B84419}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {184CC1D2-CB9A-40B9-930A-7A94C8955606}
+	EndGlobalSection
+EndGlobal
