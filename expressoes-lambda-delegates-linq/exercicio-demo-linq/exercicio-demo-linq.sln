@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicios-lambda", "exercicios-lambda\exercicios-lambda.csproj", "{6FA5DEDC-8B04-457F-B822-DEE85601CBB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio-demo-linq", "exercicio-demo-linq\exercicio-demo-linq.csproj", "{0B33A454-07DE-47FB-9917-A774C451F82D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6FA5DEDC-8B04-457F-B822-DEE85601CBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FA5DEDC-8B04-457F-B822-DEE85601CBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FA5DEDC-8B04-457F-B822-DEE85601CBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FA5DEDC-8B04-457F-B822-DEE85601CBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B33A454-07DE-47FB-9917-A774C451F82D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B33A454-07DE-47FB-9917-A774C451F82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B33A454-07DE-47FB-9917-A774C451F82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B33A454-07DE-47FB-9917-A774C451F82D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {768FE92B-102F-4EC1-AA3C-DA4597C3619B}
+		SolutionGuid = {33DF8C10-B005-4119-B0C3-97550A058111}
 	EndGlobalSection
 EndGlobal

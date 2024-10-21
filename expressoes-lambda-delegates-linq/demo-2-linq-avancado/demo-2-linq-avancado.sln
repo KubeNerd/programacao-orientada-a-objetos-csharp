@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicio-dictionary-gethash", "exercicio-dictionary-gethash\exercicio-dictionary-gethash.csproj", "{18011763-F527-494B-8FF2-8C03EE22D3A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo-2-linq-avancado", "demo-2-linq-avancado\demo-2-linq-avancado.csproj", "{BAB4DA57-2D3F-4445-B2FE-ABEBB4081ADB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{18011763-F527-494B-8FF2-8C03EE22D3A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18011763-F527-494B-8FF2-8C03EE22D3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18011763-F527-494B-8FF2-8C03EE22D3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18011763-F527-494B-8FF2-8C03EE22D3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB4DA57-2D3F-4445-B2FE-ABEBB4081ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB4DA57-2D3F-4445-B2FE-ABEBB4081ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB4DA57-2D3F-4445-B2FE-ABEBB4081ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB4DA57-2D3F-4445-B2FE-ABEBB4081ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7A68221A-50DE-4E88-BCED-B46B63AF24B9}
+		SolutionGuid = {4C6BC7B2-0062-4CE0-8955-C2382935BC2E}
 	EndGlobalSection
 EndGlobal
